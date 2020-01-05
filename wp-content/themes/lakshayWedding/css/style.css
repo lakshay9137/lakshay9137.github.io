@@ -3179,9 +3179,9 @@ section.idy_box_full {}
     background-position: center bottom;
 }
 
-.mobile .idy_image_bottom_img {
+/*.mobile .idy_image_bottom_img {
     background-position: -21px -143px !important;
-}
+}*/
 
 .idy_image_bottom .idy_heart {
     position: absolute;
