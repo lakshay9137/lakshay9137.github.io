@@ -1302,7 +1302,7 @@ section.idy_box_full {}
     position: absolute;
     bottom: 120px;
     z-index: 5;
-    left: calc(50% + 40px);
+    left: calc(80% + 40px);
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
