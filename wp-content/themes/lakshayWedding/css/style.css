@@ -368,6 +368,7 @@ h1.entry-title {}
 @media (min-width: 1200px) {
     .container {
         width: 994px;
+        height:410px
     }
 }
 
