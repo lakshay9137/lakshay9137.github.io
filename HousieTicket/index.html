@@ -17,7 +17,7 @@
         </div id="printarea">
         <table id="BigTable">
         <tr style="display:none"> 
-            <td onclick='tdclick(event)'>
+            <td>
                   <div id="page1">
                     
                     <table id="table1" class= "innerTable">
@@ -59,7 +59,7 @@
                     </table>
                    </div>
                </td>
-               <td onclick='tdclick(event)' style="display:none"> 
+               <td> 
                   <div id="page2">
                     
                     <table id="table2" class= "innerTable">
@@ -100,7 +100,7 @@
                     </table>
                    </div>
                </td> 
-                  <td onclick='tdclick(event)' style="display:none"> 
+                  <td> 
                   <div id="page3">
                     
                     <table id="table3" class= "innerTable">
@@ -142,7 +142,7 @@
                    </div>
                </td> 
         </tr>
-            <td onclick='tdclick(event)'> 
+            <td> 
                   <div id="page4">
                     
                     <table id="table4" class= "innerTable">
@@ -526,7 +526,17 @@
     <script>
     function tdclick(e){ 
         console.log(e);
-        e.target.style.borderColor = "red";
+        e.preventDefault();
+        var getTD = e.target;
+        if(getTD.style.borderColor !=="red")
+        {
+                getTD.style.borderColor = "red";
+		}
+        else
+        {
+                getTD.style.borderColor = "#032786";
+		}
+        
     };
     </script>
     <style>
