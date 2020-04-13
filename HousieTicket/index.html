@@ -1,0 +1,536 @@
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <meta charset=utf-8 />
+                <title>Housie Ticket Generator</title>
+                <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+                <script type="text/javascript" src="assets/js/script.js"></script>
+                <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+            </head>
+            <body >
+                <h1 align="center">Housie Ticket Generator</h1>
+                 <h4 align="center"><a href="#" id="newCard" >Click me for a new card</a></h4>
+         <h4 align="center"><a href="#" id="printBut" >Print</a></h4>
+        <div class= "header"
+        
+         
+        </div id="printarea">
+        <table id="BigTable">
+        <tr style="display:none"> 
+            <td onclick='tdclick(event)'>
+                  <div id="page1">
+                    
+                    <table id="table1" class= "innerTable">
+                        <tbody id="tbodyid">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       </tbody>
+                    </table>
+                   </div>
+               </td>
+               <td onclick='tdclick(event)' style="display:none"> 
+                  <div id="page2">
+                    
+                    <table id="table2" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td> 
+                  <td onclick='tdclick(event)' style="display:none"> 
+                  <div id="page3">
+                    
+                    <table id="table3" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td> 
+        </tr>
+            <td onclick='tdclick(event)'> 
+                  <div id="page4">
+                    
+                    <table id="table4" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td>
+                 <td onclick='tdclick(event)' style="display:none"> 
+                  <div id="page5">
+                    
+                    <table id="table5" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td>
+                <td onclick='tdclick(event)' style="display:none"> 
+                  <div id="page5">
+                    
+                    <table id="table6" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td>
+        <tr>
+
+        </tr>   
+        <tr style="display:none"> 
+            <td onclick='tdclick(event)'>
+                  <div id="page1">
+                    
+                    <table id="table7" class= "innerTable">
+                        <tbody id="tbodyid">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       </tbody>
+                    </table>
+                   </div>
+               </td>
+               <td onclick='tdclick(event)' style="display:none"> 
+                  <div id="page2">
+                    
+                    <table id="table8" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td> 
+                  <td onclick='tdclick(event)' style="display:none"> 
+                  <div id="page3">
+                    
+                    <table id="table9" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td> 
+        </tr>
+            <td onclick='tdclick(event)' style="display:none"> 
+                  <div id="page4">
+                    
+                    <table id="table10" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td>
+                 <td onclick='tdclick(event)' style="display:none"> 
+                  <div id="page5">
+                    
+                    <table id="table11" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td>
+                <td onclick='tdclick(event)'> 
+                  <div id="page5">
+                    
+                    <table id="table12" class= "innerTable">
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell1"> </td>
+                            <td onclick='tdclick(event)' id="cell2"> </td>
+                            <td onclick='tdclick(event)' id="cell3"> </td>
+                            <td onclick='tdclick(event)' id="cell4"> </td>
+                            <td onclick='tdclick(event)' id="cell5"> </td>
+                            <td onclick='tdclick(event)' id="cell6"> </td>
+                            <td onclick='tdclick(event)' id="cell7"> </td>
+                            <td onclick='tdclick(event)' id="cell8"> </td>
+                            <td onclick='tdclick(event)' id="cell9"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell11"> </td>
+                            <td onclick='tdclick(event)' id="cell12"> </td>
+                            <td onclick='tdclick(event)' id="cell13"> </td>
+                            <td onclick='tdclick(event)' id="cell14"> </td>
+                            <td onclick='tdclick(event)' id="cell15"> </td>
+                            <td onclick='tdclick(event)' id="cell16"> </td>
+                            <td onclick='tdclick(event)' id="cell17"> </td>
+                            <td onclick='tdclick(event)' id="cell18"> </td>
+                            <td onclick='tdclick(event)' id="cell19"> </td>
+                        </tr>
+                        <tr>
+                            <td onclick='tdclick(event)' id="cell21"> </td>
+                            <td onclick='tdclick(event)' id="cell22"> </td>
+                            <td onclick='tdclick(event)' id="cell23"> </td>
+                            <td onclick='tdclick(event)' id="cell24"> </td>
+                            <td onclick='tdclick(event)' id="cell25"> </td>
+                            <td onclick='tdclick(event)' id="cell26"> </td>
+                            <td onclick='tdclick(event)' id="cell27"> </td>
+                            <td onclick='tdclick(event)' id="cell28"> </td>
+                            <td onclick='tdclick(event)' id="cell29"> </td>
+                        </tr>
+                       
+                    </table>
+                   </div>
+               </td>
+        <tr>
+
+        </tr> 
+        </table>
+         </div>
+    </body>
+    <script>
+    function tdclick(e){ 
+        console.log(e);
+        e.target.style.borderColor = "red";
+    };
+    </script>
+    <style>
+    
+    </style>
+    </html>
+            
